@@ -8,6 +8,7 @@ ADD_LIBRARY(cld2 OBJECT
   cld_generated_cjk_delta_bi_32.cc generated_distinct_bi_0.cc
   cld2_generated_quad0122.cc cld2_generated_deltaocta0122.cc
   cld2_generated_distinctocta0122.cc cld_generated_score_quad_octa_0122.cc
+  detect_langs.cc
 )
 
 SET_TARGET_PROPERTIES(cld2 PROPERTIES COMPILE_FLAGS "-fPIC")
@@ -25,4 +26,4 @@ SET_TARGET_PROPERTIES(cld2-dynamic
 install (TARGETS cld2-dynamic DESTINATION lib)
 install (TARGETS cld2-static DESTINATION lib)
 
-install(FILES compact_lang_det.h encodings.h DESTINATION include/cld2)
+install(FILES detect_langs.h DESTINATION include/cld2)

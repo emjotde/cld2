@@ -1,7 +1,7 @@
 
 #include <iostream>
 #include <string>
-#include "detect_langs.h"
+#include "cld2/detect_langs.h"
 
 int main(int args, char** argv) {
   std::string line;
