@@ -27,8 +27,8 @@
 #include <sys/mman.h>
 
 #include "cld2_dynamic_compat.h"
-#include "../public/compact_lang_det.h"
-#include "../public/encodings.h"
+#include "compact_lang_det.h"
+#include "encodings.h"
 #include "unittest_data.h"
 
 

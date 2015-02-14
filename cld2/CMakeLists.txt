@@ -24,3 +24,5 @@ SET_TARGET_PROPERTIES(cld2-dynamic
 
 install (TARGETS cld2-dynamic DESTINATION lib)
 install (TARGETS cld2-static DESTINATION lib)
+
+install(FILES compact_lang_det.h encodings.h DESTINATION include/cld2)

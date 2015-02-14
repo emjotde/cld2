@@ -5,8 +5,8 @@ project(cld2 CXX)
 
 include_directories(${cld2_SOURCE_DIR})
 
-set(OBJ_LIBS internal)
-set(DIRS internal public)
+set(OBJ_LIBS cld2)
+set(DIRS cld2 tool)
 
 foreach(dir ${DIRS})
     include_directories(${cld2_SOURCE_DIR}/${dir})

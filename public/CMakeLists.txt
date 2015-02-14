@@ -1,1 +1,0 @@
-install(FILES compact_lang_det.h encodings.h DESTINATION include/cld2)

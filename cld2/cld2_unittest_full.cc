@@ -23,8 +23,8 @@
 #include <stdio.h>
 #include <string.h>
 
-#include "../public/compact_lang_det.h"
-#include "../public/encodings.h"
+#include "compact_lang_det.h"
+#include "encodings.h"
 #include "unittest_data.h"
 
 
