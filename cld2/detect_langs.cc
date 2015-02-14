@@ -1,6 +1,8 @@
 #include "cld2/detect_langs.h"
 #include "cld2/compact_lang_det.h"
 
+namespace CLD2 {
+
 bool DetectLangs(const std::string& text, Langs& langs, LangRanges& langRanges) {
   CLD2::Language l[3];
   int p[3];
@@ -26,4 +28,6 @@ bool DetectLangs(const std::string& text, Langs& langs, LangRanges& langRanges) 
   }
 
   return reliable;
+}
+
 }

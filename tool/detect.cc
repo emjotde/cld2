@@ -6,9 +6,9 @@
 int main(int args, char** argv) {
   std::string line;
   while(std::getline(std::cin, line)) {
-    Langs l;
-    LangRanges lr;
-    bool rel = DetectLangs(line, l, lr);
+    CLD2::Langs l;
+    CLD2::LangRanges lr;
+    bool rel = CLD2::DetectLangs(line, l, lr);
     std::cout << rel << "\t"; 
 
     for(size_t i = 0; i < l.size(); ++i) {

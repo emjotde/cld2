@@ -3,6 +3,8 @@
 #include <string>
 #include <vector>
 
+namespace CLD2 {
+
 struct LangPercent {
   std::string language;
   int percent;
@@ -19,3 +21,5 @@ struct LangRange {
 typedef std::vector<LangRange> LangRanges;
 
 bool DetectLangs(const std::string& text, Langs& langs, LangRanges& langRanges);
+
+}
